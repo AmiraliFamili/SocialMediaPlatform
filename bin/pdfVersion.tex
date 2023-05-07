@@ -1,0 +1,68 @@
+\documentclass{article}
+\usepackage[a4paper, total={7.1in, 8.4in}]{geometry}
+\usepackage{tcolorbox}
+\usepackage{listings}
+\makeatother
+\tcbset{
+  colframe=cyan,
+  colback=cyan!30,
+  colbacktitle=cyan,
+  title=Answer,
+  fonttitle=\bfseries
+}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\lstset{%frame=tb,
+  language=Java,
+  aboveskip=2mm,
+  belowskip=2mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\begin{document}
+
+\section{BadSocialMedia.java}
+\lstinputlisting{../src/BadSocialMedia.java}
+
+\section{SocialMediaPlatform.java}
+\lstinputlisting{../src/SocialMediaPlatform.java}
+
+\section{SocialMediaPlatformTestApp.java}
+\lstinputlisting{../src/SocialMediaPlatformTestApp.java}
+
+\section{Post.java}
+\lstinputlisting{../src/Post.java}
+
+\section{AccountIDNotRecognisedException.java}
+\lstinputlisting{../src/AccountIDNotRecognisedException.java}
+
+\section{HandleNotRecognisedException.java}
+\lstinputlisting{../src/HandleNotRecognisedException.java}
+
+\section{IllegalHandleException.java}
+\lstinputlisting{../src/IllegalHandleException.java}
+
+\section{InvalidHandleException.java}
+\lstinputlisting{../src/InvalidHandleException.java}
+
+\section{InvalidPostException.java}
+\lstinputlisting{../src/InvalidPostException.java}
+
+\section{NotActionablePostException.java}
+\lstinputlisting{../src/NotActionablePostException.java}
+
+\section{PostIDNotRecognisedException.java}
+\lstinputlisting{../src/PostIDNotRecognisedException.java}
+
+\end{document}
