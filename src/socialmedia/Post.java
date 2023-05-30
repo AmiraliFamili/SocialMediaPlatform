@@ -5,6 +5,8 @@ import java.io.*;
 
 public class Post {
 
+    // The design of the Post , Comment and User Files should change and be more object oriented masalan 
+
     public static  String username;
     public static int PostID;
     public static List<Map<String, Object>> AllPosts = new ArrayList<>(); 
